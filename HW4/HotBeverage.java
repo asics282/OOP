@@ -21,7 +21,7 @@ public class HotBeverage extends Beverage {
         this.temperature = temperature;
     }
     // показать температуру напитка
-    void sayTemperature(){
+    public void sayTemperature(){
         System.out.println("Температура напитка " + getName() + " равна " + getTemperature());
     }
 }
